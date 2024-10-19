@@ -9,7 +9,7 @@ readme = "README.md"
 packages = [{ include = "aes_encryptor" }]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 cryptography = "^43.0.1"
 loguru = "^0.7.2"
 
