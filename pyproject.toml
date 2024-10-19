@@ -1,12 +1,12 @@
 [tool.poetry]
 name = "pdat-aes-encryptor"
-version = "0.2.0"
+version = "0.3.0"
 description = "AES Encryptor"
 authors = ["Pavel Dat <dats.pavel1999@gmail.com>"]
 license = "MIT license"
 keywords = ["aes", "encryptor"]
 readme = "README.md"
-packages = [{ include = "aes_encryptor" }]
+packages = [{ include = "pdat_aes_encryptor" }]
 
 [tool.poetry.dependencies]
 python = "^3.10"

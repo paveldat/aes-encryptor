@@ -19,19 +19,18 @@ poetry add pdat-aes-encryptor
 #### Encryption
 To encrypt text, use the encrypt_aes method:
 ```python
-from aes_encryptor import AESEncryptor
+from pdat_aes_encryptor.aes_encryptor import AESEncryptor
 
 key = "your_secret_key_here"  # Ensure the key length is 16, 24, or 32 characters
 plain_text = "Hello, World!"
 encrypted_text = AESEncryptor.encrypt_aes(plain_text, key)
 print(f"Encrypted text: {encrypted_text}")
-
 ```
 
 #### Decryption
 To decrypt text, use the decrypt_aes method:
 ```python
-from aes_encryptor import AESEncryptor
+from pdat_aes_encryptor.aes_encryptor import AESEncryptor
 
 key = "your_secret_key_here"  # Ensure the key length is 16, 24, or 32 characters
 cipher_text = b'\xbb\x08\x80\xc3\r\\V\xa8D\x1f\x82$\xf6\xca8\xe0 \xa1>\x8c\x9fj+{\xb5\xcf\xf7\xa8\xf7\x85O\xf4'
