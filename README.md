@@ -6,13 +6,13 @@ This project provides a class AESEncryptor for encrypting and decrypting text us
 ### Installation
 To use this project, you need to install the required dependencies. You can do this using poetry:
 ```sh
-pip install aes_encryptor
+pip install pdat-aes-encryptor
 ```
 
 or 
 
 ```sh
-poetry add aes_encryptor
+poetry add pdat-aes-encryptor
 ```
 
 ### Usage
